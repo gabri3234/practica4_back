@@ -14,9 +14,9 @@ export const typeDefs = gql`
     description: String
     startDate: String!
     endDate: String!
-    owner: User!        # Owner siempre existe
+    owner: User!        
     members: [User!]!
-    tasks: [Task!]!     # Resolución dinámica
+    tasks: [Task!]!     
     createdAt: String
     updatedAt: String
   }
